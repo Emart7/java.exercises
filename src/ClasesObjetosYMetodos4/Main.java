@@ -35,13 +35,16 @@ public class Main {
 //        System.out.println("El salde de Juan tras sacar una cantidad negativa es: " + cuentaDeJorge.obtenerSaldo());
 
         //Ejercicio 3 - Calculadora
-        Calculadora calculadora = new Calculadora();
-        double radio = 4.0;
-        double area = calculadora.calcularAreaCirculo(radio);
-        System.out.println("El area de un circulo de un radio" + radio + " es: " + area);
+//        Calculadora calculadora = new Calculadora();
+//        double radio = 4.0;
+//        double area = calculadora.calcularAreaCirculo(radio);
+//        System.out.println("El area de un circulo de un radio" + radio + " es: " + area);
+//
+//        System.out.println("El volumen de un prisma de 5 por 4 por 8 es: " + calculadora.calcularVolumenPrismaRectangular(5,4,8));
+//
+//        calculadora.calcularMedia(2.6,2,5.9,8);
 
-        System.out.println("El volumen de un prisma de 5 por 4 por 8 es: " + calculadora.calcularVolumenPrismaRectangular(5,4,8));
+        CuentaBancaria cuentaDeJoy = new CuentaBancaria("Joy Suarez","ahorro",5000);
 
-        calculadora.calcularMedia(2.6,2,5.9,8);
     }
 }

@@ -44,7 +44,25 @@ public class Main {
 //
 //        calculadora.calcularMedia(2.6,2,5.9,8);
 
-        CuentaBancaria cuentaDeJoy = new CuentaBancaria("Joy Suarez","ahorro",5000);
+//        CuentaBancaria cuentaDeJoy = new CuentaBancaria("Joy Suarez","ahorro",5000);
+
+        //Ejercicio 4 - Constantes
+//        CuentaBancaria cuentaDeMaria = new CuentaBancaria("Maria Perez", CuentaBancaria.TIPO_AHORRO, 50000);
+
+        //Ejercicio 5 - Enumeraciones
+//        CuentaBancaria cuentadeMay = new CuentaBancaria("May Guerra", TipoDeCuenta.INFANTIL, 30000);
+
+        //Ejercicio 6 - Sobre carga de metodos
+        Informador informador = new Informador();
+
+        informador.mostarPorPantalla(5);
+        informador.mostarPorPantalla("hola");
+        informador.mostarPorPantalla("hola", Informador.COLOR_AMARILLO);
+        informador.mostrarPorPantalla(8);
+
+        byte unByte = 2;
+        informador.mostarPorPantalla(unByte);
+
 
     }
 }

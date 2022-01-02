@@ -1,6 +1,4 @@
-package OtrosTipoDeDatos;
-
-import java.sql.SQLOutput;
+package OtrosTipoDeDatos6;
 
 public class PracticaConStrings {
     String unString = new String("Soy un String.");

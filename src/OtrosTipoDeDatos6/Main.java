@@ -1,6 +1,4 @@
-package OtrosTipoDeDatos;
-
-import java.io.InputStream;
+package OtrosTipoDeDatos6;
 
 public class Main {
     public static void main(String[] args) {

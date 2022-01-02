@@ -1,6 +1,4 @@
-package OtrosTipoDeDatos;
-
-import java.util.MissingFormatArgumentException;
+package OtrosTipoDeDatos6;
 
 public class BucleForEach {
     public static void main(String[] args) {

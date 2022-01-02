@@ -1,4 +1,4 @@
-package OtrosTipoDeDatos;
+package OtrosTipoDeDatos6;
 
 public class ArraysMultidimensionales {
     public static void main(String[] args) {

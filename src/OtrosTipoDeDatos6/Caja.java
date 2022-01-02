@@ -1,4 +1,4 @@
-package OtrosTipoDeDatos;
+package OtrosTipoDeDatos6;
 
 public class Caja <T>{
     T elemento;

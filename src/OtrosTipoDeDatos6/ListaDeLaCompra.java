@@ -1,4 +1,4 @@
-package OtrosTipoDeDatos;
+package OtrosTipoDeDatos6;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package OtrosTipoDeDatos;
+package OtrosTipoDeDatos6;
 
 import java.io.IOException;
 import java.io.InputStream;

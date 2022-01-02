@@ -1,6 +1,4 @@
-package ProyectoCajeroAutomatico;
-
-import ClasesObjetosYMetodos4.TipoDeCuenta;
+package ProyectoCajeroAutomatico5;
 
 public class CuentaBancaria {
     String titularDeCuenta;

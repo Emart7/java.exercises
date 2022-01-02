@@ -1,5 +1,7 @@
-package ProyectoCajeroAutomatico;
+package ProyectoCajeroAutomatico5;
 
+import javax.sound.midi.Soundbank;
+import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -49,12 +51,22 @@ public class CajeroAutomatico {
 
     void consultarUltimosMovimientos(){
 
+        GeneradorAleatorioDeMovimientos generadorAleatorioDeMovimientos = new GeneradorAleatorioDeMovimientos();
+        System.out.println("Cuantos movimientos quiere consultar? ");
+        Scanner scanner = new Scanner(System.in);
+        int numerosDeMovimientos = scanner.nextInt();
+        ArrayList<String> movimientos = generadorAleatorioDeMovimientos.obtenerMovimientos(numerosDeMovimientos, "euros");
+        mostrarMovimientos(movimientos);
+    }
+
+    void mostrarMovimientos(ArrayList<String> movimientos){
+        for(String movimiento: movimientos){
+            System.out.println(movimiento);
+        }
     }
 
     void salir(){
         System.out.println("Muchas gracias por usar nuestros servicios...");
     }
-
-
 
 }
